@@ -24,10 +24,12 @@ public class PairMatching {
 
     void doOption(String selectedOption) {
         if (selectedOption.equals("1")) {
+            outputView.showList();
             doMatching();
             return;
         }
         if (selectedOption.equals("2")) {
+            outputView.showList();
             seeMatching();
             return;
         }
