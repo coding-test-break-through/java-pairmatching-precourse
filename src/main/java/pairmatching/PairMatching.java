@@ -1,5 +1,7 @@
 package pairmatching;
 
+import camp.nextstep.edu.missionutils.Randoms;
+
 import java.io.BufferedReader;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
@@ -133,6 +135,6 @@ public class PairMatching {
             }
             input.add(str);
         }
-        return input;
+        return Randoms.shuffle(input);
     }
 }
